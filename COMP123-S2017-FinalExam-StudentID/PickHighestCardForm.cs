@@ -15,7 +15,7 @@ using System.Windows.Forms;
  * Date: 17 August,2017
  * StudentID: 300931446
  * Description: This is the PickHighestCardForm form
- * Version 0.1: Default coding provided by professor
+ * Version 0.2: Modified version
  */
 
 namespace COMP123_S2017_FinalExam_300931446
@@ -29,6 +29,7 @@ namespace COMP123_S2017_FinalExam_300931446
         Deck _deck;
         Hand _hand;
         int _maximumPoints;
+         ScoreBoard _scoreboard;
         
 
         // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -58,7 +59,18 @@ namespace COMP123_S2017_FinalExam_300931446
                 this._currentDealtCardIndex = value;
             }
         }
+        private ScoreBoard ScoreBoard
+        {
+            get
+            {
+                return this._scoreboard;
+            }
 
+            set
+            {
+                this._scoreboard = value;
+            }
+        }
         public Deck Deck
         {
 
@@ -201,6 +213,8 @@ namespace COMP123_S2017_FinalExam_300931446
             this._enableDealtCards();
             this._hideFinalScore();
             UserMessageTextBox.Text = "Click the Deal Button!";
+            ScoreBoard.Score = 0;
+            ScoreBoard.Time = 30;
         }
 
         /// <summary>
