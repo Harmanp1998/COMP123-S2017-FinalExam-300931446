@@ -13,7 +13,7 @@ using System.Windows.Forms;
  * StudentID: 300931446
  * Description: This is the Splash Form for the application
  */
-namespace COMP123_S2017_FinalExam_StudentID
+namespace COMP123_S2017_FinalExam_300931446
 {
     public partial class SplashForm : Form
     {
@@ -24,12 +24,20 @@ namespace COMP123_S2017_FinalExam_StudentID
                 return Program.pickHighestCardForm;
                 }
         }
-
+        //Constructors
+        /// <summary>
+        /// This is the main constructor for SplashForm
+        /// </summary>
         public SplashForm()
         {
             InitializeComponent();
-        }
 
+        }
+        /// <summary>
+        /// This is the evnt handler for 'Tick'
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Timer1_Tick(object sender, EventArgs e)
         {
 

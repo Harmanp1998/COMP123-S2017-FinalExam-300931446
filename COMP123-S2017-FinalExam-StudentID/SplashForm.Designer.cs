@@ -1,4 +1,4 @@
-﻿namespace COMP123_S2017_FinalExam_StudentID
+﻿namespace COMP123_S2017_FinalExam_300931446
 {
     partial class SplashForm
     {

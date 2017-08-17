@@ -11,7 +11,7 @@ using System.Text;
  * Version: 0.7 - Added the Deal5 method
  */
 
-namespace COMP123_S2017_FinalExam_StudentID
+namespace COMP123_S2017_FinalExam_300931446
 {
     public class Deck : CardList
     {

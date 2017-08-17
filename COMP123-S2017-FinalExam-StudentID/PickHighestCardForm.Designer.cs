@@ -1,4 +1,4 @@
-﻿namespace COMP123_S2017_FinalExam_StudentID
+﻿namespace COMP123_S2017_FinalExam_300931446
 {
     partial class PickHighestCardForm
     {
@@ -125,7 +125,7 @@
             // FifthCardPictureBox
             // 
             this.FifthCardPictureBox.BackColor = System.Drawing.Color.Black;
-            this.FifthCardPictureBox.Image = global::COMP123_S2017_FinalExam_StudentID.Properties.Resources.cardback;
+            this.FifthCardPictureBox.Image = global::COMP123_S2017_FinalExam_300931446.Properties.Resources.cardback;
             this.FifthCardPictureBox.Location = new System.Drawing.Point(447, 3);
             this.FifthCardPictureBox.Name = "FifthCardPictureBox";
             this.FifthCardPictureBox.Size = new System.Drawing.Size(96, 102);
@@ -138,7 +138,7 @@
             // FourthCardPictureBox
             // 
             this.FourthCardPictureBox.BackColor = System.Drawing.Color.Black;
-            this.FourthCardPictureBox.Image = global::COMP123_S2017_FinalExam_StudentID.Properties.Resources.cardback;
+            this.FourthCardPictureBox.Image = global::COMP123_S2017_FinalExam_300931446.Properties.Resources.cardback;
             this.FourthCardPictureBox.Location = new System.Drawing.Point(336, 3);
             this.FourthCardPictureBox.Name = "FourthCardPictureBox";
             this.FourthCardPictureBox.Size = new System.Drawing.Size(96, 102);
@@ -151,7 +151,7 @@
             // ThirdCardPictureBox
             // 
             this.ThirdCardPictureBox.BackColor = System.Drawing.Color.Black;
-            this.ThirdCardPictureBox.Image = global::COMP123_S2017_FinalExam_StudentID.Properties.Resources.cardback;
+            this.ThirdCardPictureBox.Image = global::COMP123_S2017_FinalExam_300931446.Properties.Resources.cardback;
             this.ThirdCardPictureBox.Location = new System.Drawing.Point(225, 3);
             this.ThirdCardPictureBox.Name = "ThirdCardPictureBox";
             this.ThirdCardPictureBox.Size = new System.Drawing.Size(96, 102);
@@ -164,7 +164,7 @@
             // SecondCardPictureBox
             // 
             this.SecondCardPictureBox.BackColor = System.Drawing.Color.Black;
-            this.SecondCardPictureBox.Image = global::COMP123_S2017_FinalExam_StudentID.Properties.Resources.cardback;
+            this.SecondCardPictureBox.Image = global::COMP123_S2017_FinalExam_300931446.Properties.Resources.cardback;
             this.SecondCardPictureBox.Location = new System.Drawing.Point(114, 3);
             this.SecondCardPictureBox.Name = "SecondCardPictureBox";
             this.SecondCardPictureBox.Size = new System.Drawing.Size(96, 102);
@@ -178,7 +178,7 @@
             // 
             this.FirstCardPictureBox.BackColor = System.Drawing.Color.Black;
             this.FirstCardPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.FirstCardPictureBox.Image = global::COMP123_S2017_FinalExam_StudentID.Properties.Resources.cardback;
+            this.FirstCardPictureBox.Image = global::COMP123_S2017_FinalExam_300931446.Properties.Resources.cardback;
             this.FirstCardPictureBox.Location = new System.Drawing.Point(3, 3);
             this.FirstCardPictureBox.Name = "FirstCardPictureBox";
             this.FirstCardPictureBox.Size = new System.Drawing.Size(96, 102);

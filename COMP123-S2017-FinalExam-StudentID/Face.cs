@@ -10,7 +10,7 @@ using System.Text;
  * Version: 0.1 - Created the Face enum
  */
 
-namespace COMP123_S2017_FinalExam_StudentID
+namespace COMP123_S2017_FinalExam_300931446
 {
     public enum Face
     {

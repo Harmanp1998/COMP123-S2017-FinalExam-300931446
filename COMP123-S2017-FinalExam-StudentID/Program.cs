@@ -12,10 +12,11 @@ using System.Windows.Forms;
  * Version 0.1 : Created an instance of pickHighestCard object
  */
 
-namespace COMP123_S2017_FinalExam_StudentID
+namespace COMP123_S2017_FinalExam_300931446
 {
     public static class Program
     {
+        
         // Create Reference to Forms
         public static PickHighestCardForm pickHighestCardForm;
         /// <summary>

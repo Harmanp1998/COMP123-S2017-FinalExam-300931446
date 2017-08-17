@@ -10,7 +10,7 @@ using System.Text;
  * Version: 0.3 - Added the OverWrite method
  */
 
-namespace COMP123_S2017_FinalExam_StudentID
+namespace COMP123_S2017_FinalExam_300931446
 {
     public class Card : ICloneable
     {

@@ -11,14 +11,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+ * Name: Harmanpreet Singh
+ * Date: 17 August,2017
+ * StudentID: 300931446
+ * Description: This is the PickHighestCardForm form
+ * Version 0.1: Default coding provided by professor
  */
 
-namespace COMP123_S2017_FinalExam_StudentID
+namespace COMP123_S2017_FinalExam_300931446
 {
     public partial class PickHighestCardForm : Form
     {
@@ -29,6 +29,7 @@ namespace COMP123_S2017_FinalExam_StudentID
         Deck _deck;
         Hand _hand;
         int _maximumPoints;
+        
 
         // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public List<PictureBox> DealtCardPictureBoxList
@@ -111,7 +112,8 @@ namespace COMP123_S2017_FinalExam_StudentID
                 this._maximumPoints = value;
             }
         }
-
+        
+        //
         // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public PickHighestCardForm()
         {
