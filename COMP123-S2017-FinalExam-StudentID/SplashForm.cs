@@ -7,34 +7,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+ * Name: Harmanpreet Singh
+ * Date: 17 August, 2017  
+ * StudentID: 300931446
+ * Description: This is the Splash Form for the application
  */
-
 namespace COMP123_S2017_FinalExam_StudentID
 {
     public partial class SplashForm : Form
     {
+        //Public Properties
+        public PickHighestCardForm PickHighestCardForm
+        {
+            get {
+                return Program.pickHighestCardForm;
+                }
+        }
+
         public SplashForm()
         {
             InitializeComponent();
         }
 
-        /// <summary>
-        /// This is the SplashFormTimer's "Tick" event handler method
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void SplashFormTimer_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
-            SplashFormTimer.Enabled = false;
+
+            this.PickHighestCardForm.Show();
             this.Hide();
-            Program.pickHighestCardForm.Show();
+            SplashFormTimer.Enabled = false; //This enables the PickCardHighestForm to be displayed only once
         }
     }
 }
